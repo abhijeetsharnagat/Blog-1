@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Figtree:wght@600&family=IBM+Plex+Sans:wght@200;300;500&family=Manrope:wght@400;800&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=REM:wght@300&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Figtree:wght@600;800&family=IBM+Plex+Sans:wght@200;300;500&family=Manrope:wght@400;800&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=REM:wght@300&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Figtree:wght@300;600;800&family=IBM+Plex+Sans:wght@200;300;500&family=Manrope:wght@400;800&family=Plus+Jakarta+Sans:wght@500&family=Poppins:wght@300&family=REM:wght@300&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+.container{
+    border-style:solid;
+    width:21rem;
+    border-width:2px;
+    padding:2rem;
+    border-color: gray;
+    box-shadow: 10px 10px black;
+    border-radius:1rem;
+    background-color: white;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.header-img img{
+    border-radius:1rem;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+}
+button{
+    padding-right:1rem;
+    padding-left:1rem;
+    padding-top:0.7rem;
+    padding-bottom:0.7rem;
+    font-family: 'Figtree', sans-serif;
+    font-weight:800;
+    font-size:1rem;
+    background-color: hsl(47, 88%, 63%);
+    border-width:0;
+    border-radius:0.4rem;
+}
+button:hover{
+    background-color:black;
+    color:white;
+    transition: 0.3s;
+}
+.discripttion{
+    font-family: 'Figtree', sans-serif;
+    font-weight:600;
+}
+h1{
+    font-family: 'Figtree', sans-serif;
+    font-weight:800;
+    font-size:1.6rem;
+    width:26rem;
+}
+h1:hover{
+    color:hsl(47, 88%, 63%);
+    transition: 0.3s;
+}
+.dis{
+    font-family: 'Figtree', sans-serif;
+    font-weight:300;
+    color:gray;
+    font-size:1rem;
+    line-height:1.7rem;
+    width:20rem;
+}
+.foot-img img{
+    height:3rem;
+ width:3rem;
+}
+.foot-img {
+    display: flex;
+    gap:1.5rem;
+}
+h2{
+    font-family: 'Figtree', sans-serif;
+    font-weight:800;
+    font-size:1rem;
+}
+h2:hover{
+        color:hsl(47, 88%, 63%);
+        transition: 0.3s;
+}
+@media (max-width:450px) {
+    .header-img img{
+        height:7rem;   
+    }
+    .container{
+        width:12rem;
+        box-shadow: 7px 7px black;
+    }
+    button{
+        font-size:0.8rem;
+    }
+    .discripttion{
+        width:50vw;
+    }
+    h1{
+       font-size:1.1rem;
+        width:70vw;
+    }
+    .dis{
+        font-size:0.7rem;
+    line-height:1.5rem;
+    width:50vw;
+
+    }
+    .foot-img img{
+        height:2rem;
+     width:2rem;
+    }
+    h2{
+        font-size:0.7rem;
+    }
+    .foot-img {
+        gap:1rem;
+    }
+    
+}
